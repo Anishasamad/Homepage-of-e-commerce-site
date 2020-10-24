@@ -1,0 +1,247 @@
+*{
+        margin: auto;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+}
+.navbar {
+    background-color: #7e7b7d !important;
+}
+.nav-link{
+    font-weight: bold;
+    color: black !important;
+}
+.nav-link:hover{
+    border: 2px solid  !important;
+    border-radius: 10px !important;
+    background-color: #4D0535 !important ;
+    color: #F5FAB3 !important ;
+}
+
+.mainSection1{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.rightSection{
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.leftSidebar{
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+   
+}
+
+.leftSidebar h6{
+    color: #AC076B;
+    font-weight: 900;
+}
+
+.line{
+    margin-left: 30px;
+    color: rgb(190, 106, 106);
+}
+.coloumn-bars {
+    display: flex !important ;
+}
+.leftSidebar i{
+    color: rgb(212, 139, 139);
+    
+
+
+}
+#leftCardheading{
+    color: #AC076B;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+#leftCardtopheading{
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.cardArea{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+
+}
+
+.leftbar{
+    background-color: #f896d8 !important;
+}
+
+#colorCardtwo{
+    background-color: #ca7df9 !important;
+}
+
+#colorCardthree{
+    background-color: #724cf9;
+}
+#colorCardfour{
+    background-color: #f896d8;
+}
+.card{
+    display: flex;
+}
+
+.cardImagecontainer{
+    width: 90%;
+}
+.mainFlexcard{
+    display: flex;
+    flex-direction: row;
+    background-color: #564592;
+}
+
+.headingEpi{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.lastHeading{
+    color: white;
+}
+
+
+
+.careHealthdiv{
+    font-family: 'Roboto Slab', serif; 
+    height: 50px;
+    width: 200px;
+    background-color: #AC076B;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+
+
+}
+
+.careHealth{
+    font-weight: 800;
+}
+
+.card-body i{
+    color: white;
+}
+
+.test{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+}
+.btn-danger {
+    color: #4D0535 !important;
+    background-color:#b55595 !important ;
+    border: #b55595 !important;
+}
+.btn-danger:hover {
+    color: #fff;
+    border: #b55595 !important;
+    transition: 3s;
+}
+.btn-group{
+    height: 15px;
+}
+.list
+{
+    background-color:  #b55595 !important;
+}
+.btn-group .btn-danger 
+{
+    width: 28%;
+}
+.categories{
+    display: flex;
+}
+.new-arrivals
+{
+    display: flex;
+}
+
+.carousel-item
+{
+    margin-top: 20px;
+}
+.carousel-item img{
+    width: 80% !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: grey !important;
+}
+.card-deck .card
+{
+    background-color: rgb(143, 134, 122) !important;
+}
+.send
+{
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.send-text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+.send img{
+    width: 900px;
+}
+.cities
+{
+    position: relative;
+    text-align: center;
+    color: #ff9c31;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.cities img{
+    width: 900px;
+}
+.city-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.About-us {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .About-us .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  .page-footer{
+      background-color:#1b0714 !important ;
+      color:#F5FAB3 !important ;
+      margin-top: 20px;
+  }
+  
